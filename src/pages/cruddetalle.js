@@ -14,10 +14,12 @@ class Cruddetalle extends React.Component {
   render() {
     const { usuarios } = this.state
     return (
-      <div>
+      <div className="fondo">
         <h1 className="titulo">Reporte de usuario</h1><br />
-        <Link to={{ pathname: '/Crudalta'}}>
+        <Link to={{ pathname: '/Crudaltaprueba'}}>
+          <center>
           <button type='button' className="btn btn-success">Alta empleado</button>
+          </center>
         </Link>
         <br />
         <table id="customers">

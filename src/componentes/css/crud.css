@@ -1,5 +1,10 @@
 .titulo{
     text-align: center;
+    color: white;
+}
+.fondo{
+  background-image: url('/src/fotos/fondospace.jpg');
+  background-repeat: repeat;
 }
 .body{
     margin-left: 10cm;
@@ -10,7 +15,10 @@
     text-align: center;
     width: 14.4cm;
     height: 14.4cm;
-    background-color: #D266FF;
+    background-color: black;
+    color: white;
+    position: relative;
+    margin-left: 250px;
 }
 .alerta{
     border-radius: 10px;
@@ -22,17 +30,21 @@
     border-collapse: collapse;
     margin-left: 0.5cm;
     margin-right: 0.5cm;
+    background-color: black;
+    color: white;
+    position: relative;
+    margin-left: 250px;
   }
-  #customers tr:nth-child(even){background-color: #D266FF;}
+  #customers tr:nth-child(even){background-color: black;}
   #customers th {
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
-    background-color: #5673E8;
+    background-color: red;
     color: white;
   }
   #customers td, #customers th {
-    border: 2px solid #5673E8;
+    border: 2px solid red;
   }
   #customers td {
     padding: 4px;
