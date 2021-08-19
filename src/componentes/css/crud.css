@@ -1,0 +1,39 @@
+.titulo{
+    text-align: center;
+}
+.body{
+    margin-left: 10cm;
+}
+.tarjet{
+    font-size: 17px;
+    border-radius: 10px;
+    text-align: center;
+    width: 14.4cm;
+    height: 14.4cm;
+    background-color: #D266FF;
+}
+.alerta{
+    border-radius: 10px;
+    height: 3cm;
+    width: 10cm;
+}
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
+  }
+  #customers tr:nth-child(even){background-color: #D266FF;}
+  #customers th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: #5673E8;
+    color: white;
+  }
+  #customers td, #customers th {
+    border: 2px solid #5673E8;
+  }
+  #customers td {
+    padding: 4px;
+  }
